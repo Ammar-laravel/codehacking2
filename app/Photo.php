@@ -20,4 +20,9 @@ class Photo extends Model
         // return uploads and concatinate it with photo
         return $this->uploads . $photo;
     }
+
+    // public function posts(){
+
+    //     return $this->hasMany('App\Photo');
+    // }
 }
